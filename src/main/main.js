@@ -345,7 +345,7 @@ function runGUI() {
                                    additionalArguments: [`--riff-token=${getServerToken()}`],
                                    nodeIntegration: false,
                                    contextIsolation: true,
-                                   webSecurity: false,
+                                   webSecurity: true,
                                    backgroundThrottling: true,
                                    spellcheck: false
                                    }
